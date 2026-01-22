@@ -1,0 +1,23 @@
+class members:-
+variables, methods, classes
+--> static member access doesn't require an object of that class
+--->non-static /instance member access requires an object creation.
+static member :-                              non-static /instance:-
+
+--> class cat{
+ string name;
+int age;
+static string speciesType;
+}
+-> anything static can be  directly
+ accessed using the class name.
+->Integer.
+
+1. in single .java file you can write as many classes as u want, nut you can only write public class.
+2. upon successful copilnation, u will get .class files foe each
+
+# Inheritance is also called as an Is-A Relationship #
+
+Utility Functions:-
+-- Math. sqrt() // static
+-- Math. pow()

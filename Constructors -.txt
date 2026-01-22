@@ -1,0 +1,45 @@
+Constructors :-
+-> constructor is a special method
+-> is used to construct an object while creating it.
+-> is to initialize instance variables with values, while creating object.
+-> constructor name should same as class name.
+-> constructor should not have return type
+-> types of constructor :-
+      1. Default constructor
+      2. parametric Constructor(parameterized constructor)
+      3. copy constructor
+-> every class with have a default constructor and that will be the triggered upon creation of each object of the class.
+
+** This keyword in java :-
+1. this keyword in java represents the current object
+2. this keyword has several uses in java
+    -> used to access instance members of the class within the class
+  -> used to distinguish instance variable and local variables
+-> used in constructor chaining
+**objects to functions is always call by reference in java
+**objects are always passed
+
+LENGTH OF A STARIGHTLINE;-
+COMPOSITION - FUNDAMENTALL--------->>> oops concept :- where one class contains objects of other classes inside it as fields.
+composition is also called as "has-a" relationship.
+INHERITANCE :- A process of one class acquiring properties of another.
+- In java, ew use extends keywords to perform inheritance
+- class student extends person
+student            person
+child class       parent class
+sun class         super class
+derived class   base class
+
+Types of Inheritance :
+---------------------------
+1. Single Inheritance --> one parent - one child class
+2.Hierarchical Inheritance --> one parent - multiple child classes
+3.Multi-level Inheritance --> grand parent - parent - child
+4.Hybrid Inheritance
+5.Multiple Inheritance --> more than one parent class - one child class 
+                                   --> JAVA DOESN'T SUPPORT 
+
+METHOD OVERRIDING :
+writing the same method with same signature in the child class 
+
+

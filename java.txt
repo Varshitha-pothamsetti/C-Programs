@@ -1,0 +1,54 @@
+JAVA;-
+arrays in java
+1. java arrays are objects
+2. arrays are indexed
+3. arrays are mutable
+4. memory for arrays should be allocated using new keyboard
+5. index bounds check will take place. syntax of declaration an array:
+Java style:- datatype[] array_name = new datatype[size];
+int[] arr=new int[5]; // an array of 5 integers
+string[] names=new string[10]; // an array of 1-0 strings
+boolean[] values=new boolean[7]; // an  array of 7 bollean
+
+INITIALIZATION AN ARRAY:-
+int[] arr={10,20,30,40,50}
+arr.length--> number of elements in the array
+indexes range: 0 to n-1
+arr.length--> number of elements in the array
+
+SYNTAX of for_loop:-
+for(datatype loop_ variable_ name: array_name)
+
+MULTI DIMENSIONAL ARRAYS :-
+-> In multi-dimenstional arrays in java 
+every dimension is optional when declaring except the first.\
+
+int [][] a = new int [3][];
+int [][][] b = new int[3][][]
+{{{1,1,1,1,1},{2,2,2,2,2},{3,3,3,3,3}{4,4,4,4}},{{4,5,6},{7,8,9}}{{10}}
+b[0] = new int [4][5]; // a 4x5 2-d array
+b[1] = new int [2][3]; // a 2x3 2-d array
+b[2] = new int [1][1]; // a 1x1 2-d array.
+
+STRINGS ;-
+
+string to char arrays:
+-------------------------
+char[]  charArrayName=stringName.tocharArray()
+
+characther array to string
+--------------------------
+String stringname= newString(charArrayName)
+its not possible write for each loop on a string
+but is possible to write on char array
+char[] x = {'h','e','l','l','o'}
+
+Functions in arbitrary number of arguments
+
+--> Inhibiting inheritance (use of final keywords)
+1. when used on class, you are taking off the option of getting inheritance.
+2. when used on method , it prevents the method from overidding.
+3. when used on variable , it prevents a2nd time assignment.(Re-assignment)
+
+
+

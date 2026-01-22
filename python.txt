@@ -1,0 +1,112 @@
+What is Python?
+Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+It is used for:
+web development (server-side),
+software development,
+mathematics,
+system scripting.
+
+PYTHON: Is a dynamically typed programming language
+Numeric types--> int ,float ,complex
+sequence types--> list, tuple, range
+string type--> str
+set type--> set, frozentset
+mapping type--> dict
+
+SEPARATORS:
+In python by default uses a space as a separator
+
+END;
+it is used to mention with what type of string the print() statement should end
+by default its is a newline character
+
+Getting input from the user
+input() --> built in function which will let take input from user
+input() reads every string
+
+a=int(input())
+b=int(input())
+int
+find out sum of three number
+a, b, c=map(int, input().split())
+7:42:37
+h, m, s=map(int, input().split(':'))
+
+input()-->for taking input as a single string '10,20,30'
+split()--> '10,20,30' --> ['10', '20', '30']
+map()--> converting those strings into integers and assigned them to a, b and c respectively
+
+#using formatting:
+printf("sum %d  %d and %d is %d"%(a,b,c))
+#using .format() method on nstrings
+print("sum of {} and {} is {}" .format(a,b,c))
+#using formatted string (f strings since 3.6)
+#literal string interpolation
+print(f"sum of{a} and {b} and {a+b}")
+
+a=12.345
+print(a)
+#using % formatting
+print("%.2f" %(a))
+#using  .format() method
+print("{:2f}
+
+
+ARTHIMETIC OPERATIONS IN PYTHON :
++
+-
+*
+/
+%
+// --> Floor division(floored quotient)
+** --> Exponentiation(power)
+float division reduces the actual quotient to nearest integer
+
+LISTS :
+--> lists are ordered collection of elements
+-->  elements  be enclosed with square brackets
+--> lists are indexed
+--> index starts from 0
+--> lists are make change to the list even after creation
+--> lists are the homogenous and heterogenous
+
+ord ():
+--> built_in function which take a character and return its ASCII code point value
+ex: print(ord('a'))
+
+DICTONARY(MAPPING TYPE):
+--> key: value pairs
+keys can only be of mutable types
+values can be of any type
+you can get values mapped to a key using dict name[key]
+-dictionaries will not hold duplicate keys
+-dictionaries will always in {}
+--> word: meaning
+--> book: price
+--> book: author
+
+OPERATIONS IN PYTHON :
+1. Arthimetic operations(+,-,*,%.//,**)
+2. Relational(>,<=,<,<=,==,!=)
+3. logical(and,or ,not)
+4> Bitwise ($, |, ^ ,<< , >> ,~)
+5> Assign(=)
+          Compound assignment
+           +=, -= , *=, //,**=
+
+**CSV :-
+-->It stands for Comma Separated Values.
+--------------------------------------------------
+Basic module that is present in PSL
+-> Python Standard Libary
+
+CSV module
+1. import csv module
+2. open csv file in read mode
+3. create csv reader object
+4.
+           
+
+
+
